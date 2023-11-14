@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "sqlservergcp222"
+  description: This a GCP SQL Server
+spec:
+  type: GCP
+  owner: user:guest
+  lifecycle: experimental
